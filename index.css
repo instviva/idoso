@@ -230,20 +230,16 @@ footer{
     color: #535353;
     width: 100%;
     padding: 26px;
-}
-
-#figurinha{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 120px;
+    margin: 0;
 }
 
 #redesocial{
+    margin-left: 30px auto;
+    align-items: center;
     display: flex;
-    justify-content: flex-start;
-    width: 10%;
-    height: 10%;
+    width: 110px;
+    aspect-ratio: 1;
+    object-fit: contain;
 }
 
 @media (max-width: 768px) {
@@ -299,7 +295,8 @@ footer{
   }
 
   #redesocial img {
-    width: 120px;
+    margin-left: 6pc;
+    width: 56px;
     aspect-ratio: 1;
   }
 }
