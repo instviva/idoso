@@ -245,3 +245,56 @@ footer{
     width: 10%;
     height: 10%;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .navegacao {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  #p2 {
+    flex-direction: column;
+  }
+
+  #e2 img, #e3 img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  #sobre h2, #donate h2, #e2 h2, #e3 h2, #e4 h2 {
+    font-size: 28px;
+  }
+
+  #sobre p, #info p {
+    font-size: 16px;
+  }
+
+  #linhav {
+    display: none;
+  }
+
+  #mapa {
+    height: 250px;
+  }
+
+  .whatsapp {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  #redesocial img {
+    width: 32px;
+    height: 32px;
+  }
+}
