@@ -1,0 +1,247 @@
+.whisper-regular {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(252, 255, 211);
+    font-family: "Merriweather";
+}
+
+header{
+    background-color: #ffc100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px 18px 60px;
+    box-shadow: 0 0 5px #7e7e7e;
+}
+
+section{
+    background-color: rgb(252, 255, 211);
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+}
+
+section:nth-of-type(1) {animation-delay: 0.2s;}
+section:nth-of-type(2) {animation-delay: 0.4s;}
+section:nth-of-type(3) {animation-delay: 0.6s;}
+
+@keyframes fadeIn{
+    to { opacity: 1; transform: translateY(0);}
+    from { opacity: 0; transform: translateY(20px);}
+}
+
+.banner{
+    width: 100%;
+}
+
+.navegacao a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    transition: color 0.5s;
+    border: 2px solid #333;
+    border-radius: 20px;
+}
+
+.navegacao a:hover{
+    color: #ffc100;
+    background-color: #333;
+}
+
+#logo{
+    width: 88px;
+    height: 88px;
+    cursor: pointer;
+}
+
+#sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px; 
+    width: 90%;
+    margin: 20px auto;
+}
+
+#sobre h2{
+    display: flex;
+    padding: 20px;
+    color: #ffc100;
+    font-size: 35px;
+}
+
+#sobre p{
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 12px;
+    margin-bottom: 30px;
+}
+
+#linha {
+    height: 1px;
+    background-color: #535353;
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+
+#donate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px; 
+    width: 90%;
+    margin: 20px auto;
+}
+
+#donate h2{
+    padding: 20px;
+    color: #ffc100;
+    font-size: 35px;
+}
+
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    width: 90%;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#linhav{
+    width: 1px;
+    background-color: #535353;
+}
+
+#e2{
+    flex-direction: column;
+    margin: 60px 0 30px 0;
+}
+
+#p2{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+#p2 p{
+    margin-top: 75px;
+}
+
+#e2 h2{
+    flex-wrap: wrap;
+    color: #ffc100;
+    font-size: 35px;
+}
+
+#e2 img{
+    width: 20%;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 60px 0 60px 0;
+}
+
+#e3 h2{
+    flex-wrap: wrap;
+    color: #ffc100;
+    font-size: 35px;
+    margin: 20px 0 30px 0;
+}
+
+#e3{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#e3 img{
+    width: 20%;
+    padding: 10px;
+    margin-left: 20px auto;
+}
+
+#e4{
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+    padding: 24px;
+    box-shadow: 0 2px 4px 2px #535353;
+    border-radius: 30px;
+
+}
+
+#e4 h2{
+    align-items: center;
+    flex-wrap: wrap;
+    color: #ffc100;
+    font-size: 35px;
+    margin: 0 20px 30px 20px;
+}
+
+#mapa{
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc100;
+    color: #333;
+    padding: 12px 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+    z-index: 9999;
+} 
+
+.whatsapp:hover{
+    color: #ffc100;
+    background-color: #333;
+}
+
+footer{
+    justify-content: center;
+    background-color: #ffc100;
+    text-align: center;
+    color: #535353;
+    width: 100%;
+    padding: 26px;
+}
+
+#figurinha{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 120px;
+}
+
+#redesocial{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    height: 10%;
+}
