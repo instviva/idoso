@@ -298,4 +298,8 @@ footer{
     font-size: 14px;
   }
 
+  #redesocial img {
+    width: 90px;
+    height: 90px;
+  }
 }
