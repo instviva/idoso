@@ -269,9 +269,13 @@ footer{
     margin-top: 20px;
   }
 
-  #sobre h2, #donate h2, #e2 h2, #e3 h2, #e4 h2 {
+  #sobre h2, #donate h2, #e2 h2, #e3 h2 {
     font-size: 28px;
   }
+
+#e4 h2{
+    font-size: 24px;
+}
 
   #sobre p, #info p {
     font-size: 16px;
@@ -295,7 +299,7 @@ footer{
   }
 
   #redesocial img {
-    width: 80px;
+    width: 100px;
     height: 80px;
   }
 }
