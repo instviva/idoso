@@ -65,6 +65,76 @@ section:nth-of-type(3) {animation-delay: 0.6s;}
     cursor: pointer;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #ffc100;
+    font-size: 35px;
+}
+
+#home1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    width: 90%;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#diadia{
+    flex-direction: column;
+    margin: 60px 0 30px 0;
+}
+
+#diadia h2{
+    flex-wrap: wrap;
+    color: #ffc100;
+    font-size: 35px;
+}
+
+#cotidiano, #cotidiano2, #cotidiano3{
+    display: flex;
+    justify-content: space-around;
+    padding: 22px;
+
+}
+
+#cotidiano p, #cotidiano3 p{
+    margin-top: 85px;
+}
+
+#cotidiano2 p{
+    margin-top: 40px;
+}
+
+#cotidiano2 img{
+    width: 200px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 0 60px 0 60px;
+}
+
+#vidpascoa, #cotidiano3 img{
+    width: 200px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 60px 0 60px 0;
+}
+
+#hpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#endhpage img{
+    width: 200px;
+}
+
 #sobre{
     display: flex;
     flex-wrap: wrap;
@@ -248,32 +318,82 @@ footer{
     align-items: center;
   }
 
-  .navegacao {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+  #logo {
+    width: 70px;
+    height: 70px;
   }
 
+  .navegacao {
+    margin-top: 10px;
+    gap: 8px;
+  }
+
+  .navegacao a {
+    font-size: 14px;
+    padding: 8px 12px;
+    width: fit-content;
+    text-align: center;
+  }
+
+  h2, #diadia h2, #e2 h2, #e3 h2, #e4 h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  #home1,
+  #sobre,
+  #donate,
+  #info {
+    width: 95%;
+    margin: 10px auto;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  #sobre p,
+  #info p,
+  #home1 p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
+  }
+
+  #cotidiano,
+  #cotidiano3,
   #p2 {
     flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
   }
 
-  #e2 img, #e3 img {
-    width: 80%;
-    margin-left: 20px;
-    margin-top: 20px;
-  }
-
-  #sobre h2, #donate h2, #e2 h2, #e3 h2 {
-    font-size: 28px;
-  }
-
-#e4 h2{
-    font-size: 24px;
+#cotidiano2 {
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  gap: 10px;
 }
 
-  #sobre p, #info p {
-    font-size: 16px;
+  #cotidiano img,
+  #cotidiano2 img,
+  #cotidiano3 img,
+  #e2 img,
+  #e3 img {
+    width: 85%;
+    max-width: 320px;
+    margin: 12px auto;
+    display: block;
+    box-shadow: 0 1px 2px 1px #535353;
+  }
+
+  #vidpascoa {
+    width: 85%;
+    max-width: 320px;
+    margin: 12px auto;
+    display: block;
+    box-shadow: 0 1px 2px 1px #535353;
   }
 
   #linhav {
@@ -282,19 +402,38 @@ footer{
 
   #mapa {
     height: 250px;
+    width: 100%;
   }
 
   .whatsapp {
     font-size: 14px;
-    padding: 10px 12px;
+    padding: 10px 14px;
+    bottom: 16px;
+    right: 16px;
   }
 
   footer {
     font-size: 14px;
+    padding: 20px;
   }
 
-  #redesocial img {
-    width: 56px;
-    aspect-ratio: 1;
+#redesocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+#redesocial img {
+  width: 40px;
+  height: 40px;
+}
+
+  #e4 {
+    padding: 15px;
+    margin: 10px 10px 30px 10px;
+    border-radius: 20px;
   }
 }
