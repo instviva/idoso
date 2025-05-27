@@ -379,15 +379,19 @@ footer{
   #cotidiano img,
   #cotidiano2 img,
   #cotidiano3 img,
-  #e2 img,
-  #e3 img {
+  #e2 img{
     width: 85%;
     max-width: 320px;
     margin: 12px auto;
     display: block;
     box-shadow: 0 1px 2px 1px #535353;
   }
-
+#e3 img{
+    width: 85%;
+    max-width: 320px;
+    margin: 12px auto;
+    display: block;
+}
   #vidpascoa {
     width: 85%;
     max-width: 320px;
